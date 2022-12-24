@@ -10,13 +10,18 @@ Udacity DataScience Capstone Project on Starbucks Dataset
 
 
 # Summary <a name="summary"></a>
-Blogpost-Link here
+Find the full report here: 
+This README is just a quick overview, especially on how to get started and how to use this repo.
 
 
 ## Motivation and Project Description
+This is the summary of the capstone project for the Udacity Data Scientist Nanodegree program. I have chosen the Starbucks project to provide insights on customer behavior by analyzing offers, demographic and transaction data.
 
+## Key Findings
 
-## Key Results
+- Investigate replacing all 25% discounts with 20% discounts since those have a similar completion rate but are cheaper for the company, increasing the margins.
+- Some customers have received a large number of offers, very few even more than one offer per day. This should be optimized as a) customers might get annoyed and b) customers will not buy at regular prices anymore (behavioral), thus decreasing margins.
+- Out of a list of evaluated classifiers, the DecisionTreeClassifier with default settings has been found to be the best choice. Especially due to its comparatively high recall on 'not completed' offers.
 
 
 ## Dataset Description (by Udacity/Starbucks)
