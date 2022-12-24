@@ -13,8 +13,10 @@ Udacity DataScience Capstone Project on Starbucks Dataset
 Blogpost-Link here
 
 
-## Motivation and description
+## Motivation and Project Description
 
+
+## Key Results
 
 
 ## Dataset Description (by Udacity/Starbucks)
