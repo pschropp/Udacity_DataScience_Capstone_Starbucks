@@ -10,7 +10,10 @@ Udacity DataScience Capstone Project on Starbucks Dataset
 
 
 # Summary <a name="summary"></a>
-Find the full report here: 
+Find the full report as either 
+- .pdf: [ProjectReport.pdf](https://github.com/pschropp/Udacity_DataScience_Capstone_Starbucks/blob/main/ProjectReport/Project%20Report.pdf) 
+- .md: [ProjectReport.md](https://github.com/pschropp/Udacity_DataScience_Capstone_Starbucks/blob/main/ProjectReport/Udacity%20DataScientist/21_Capstone%20Project%20Starbucks/20_Project%20Report.md) 
+
 This README is just a quick overview, especially on how to get started and how to use this repo.
 
 
