@@ -78,6 +78,6 @@ All input data is made available in the `data` folder, the notebook code is to b
 A `requirements.txt` is also provided to facilitate the installation of necessary packages.
 
 # Licensing, Authors, Acknowledgements<a name="licensing"></a>
-The and original project statement are IP of Udacity and Starbucks. 
+The dataset and original project statement are IP of Udacity and Starbucks. 
 
 However, feel free to use the code of the Jupyter Notebook in this repo as you like.
