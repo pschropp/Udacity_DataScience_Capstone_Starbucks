@@ -73,7 +73,7 @@ Here is the schema and explanation of each variable in the files:
 # Files <a name=files></a>
 Find the report (.pdf and .md) in folder `ProjectReport`.
 
-All input data is made available in the ´data´ folder, the notebook code is to be found in the ´source´ folder.
+All input data is made available in the `data` folder, the notebook code is to be found in the `source` folder.
 
 A ´requirements.txt´ is also provided to facilitate the installation of necessary packages.
 
