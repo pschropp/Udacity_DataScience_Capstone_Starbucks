@@ -75,7 +75,7 @@ Find the report (.pdf and .md) in folder `ProjectReport`.
 
 All input data is made available in the `data` folder, the notebook code is to be found in the `source` folder.
 
-A ´requirements.txt´ is also provided to facilitate the installation of necessary packages.
+A `requirements.txt` is also provided to facilitate the installation of necessary packages.
 
 # Licensing, Authors, Acknowledgements<a name="licensing"></a>
 The and original project statement are IP of Udacity and Starbucks. 
