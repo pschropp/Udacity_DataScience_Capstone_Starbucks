@@ -1,0 +1,2272 @@
+|--- membership months <= -0.39
+|   |--- income <= 0.28
+|   |   |--- female <= 0.16
+|   |   |   |--- income <= -0.82
+|   |   |   |   |--- membership months <= -0.90
+|   |   |   |   |   |--- income <= -1.01
+|   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |--- age <= -1.95
+|   |   |   |   |   |   |   |   |--- membership months <= -1.19
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  -1.19
+|   |   |   |   |   |   |   |   |   |--- income <= -1.15
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- income >  -1.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  -1.95
+|   |   |   |   |   |   |   |   |--- age <= -1.43
+|   |   |   |   |   |   |   |   |   |--- membership months <= -1.05
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.52
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.52
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- membership months >  -1.05
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.89
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- age >  -1.43
+|   |   |   |   |   |   |   |   |   |--- income <= -1.06
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |   |--- income >  -1.06
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |   |   |--- age <= 0.76
+|   |   |   |   |   |   |   |   |   |--- age <= -2.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -2.03
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- age >  0.76
+|   |   |   |   |   |   |   |   |   |--- income <= -1.49
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- income >  -1.49
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |   |   |--- income <= -1.47
+|   |   |   |   |   |   |   |   |   |--- age <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.61
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- age >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  -1.47
+|   |   |   |   |   |   |   |   |   |--- age <= 1.22
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- age >  1.22
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- income >  -1.01
+|   |   |   |   |   |   |--- membership months <= -1.05
+|   |   |   |   |   |   |   |--- age <= -1.00
+|   |   |   |   |   |   |   |   |--- income <= -0.96
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  -0.96
+|   |   |   |   |   |   |   |   |   |--- bogo <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- bogo >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- age >  -1.00
+|   |   |   |   |   |   |   |   |--- bogo <= 0.00
+|   |   |   |   |   |   |   |   |   |--- age <= 0.44
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- age >  0.44
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- bogo >  0.00
+|   |   |   |   |   |   |   |   |   |--- age <= -0.51
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -0.51
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- membership months >  -1.05
+|   |   |   |   |   |   |   |--- age <= 0.82
+|   |   |   |   |   |   |   |   |--- age <= -0.34
+|   |   |   |   |   |   |   |   |   |--- age <= -2.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -2.01
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -0.34
+|   |   |   |   |   |   |   |   |   |--- age <= 0.30
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- age >  0.30
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  0.82
+|   |   |   |   |   |   |   |   |--- age <= 0.99
+|   |   |   |   |   |   |   |   |   |--- income <= -0.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- income >  -0.92
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  0.99
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- membership months >  -0.90
+|   |   |   |   |   |--- age <= 1.45
+|   |   |   |   |   |   |--- age <= 0.99
+|   |   |   |   |   |   |   |--- age <= 0.70
+|   |   |   |   |   |   |   |   |--- age <= 0.35
+|   |   |   |   |   |   |   |   |   |--- age <= -1.89
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- age >  -1.89
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |--- age >  0.35
+|   |   |   |   |   |   |   |   |   |--- age <= 0.47
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- age >  0.47
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.38
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.38
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |--- age >  0.70
+|   |   |   |   |   |   |   |   |--- income <= -1.52
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.47
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  -1.52
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.61
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.61
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- age >  0.99
+|   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |--- age <= 1.39
+|   |   |   |   |   |   |   |   |   |--- age <= 1.10
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- age >  1.10
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.52
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.52
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- age >  1.39
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |--- income <= -1.52
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  -1.52
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- age >  1.45
+|   |   |   |   |   |   |--- income <= -1.29
+|   |   |   |   |   |   |   |--- income <= -1.42
+|   |   |   |   |   |   |   |   |--- income <= -1.61
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  -1.61
+|   |   |   |   |   |   |   |   |   |--- age <= 2.17
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  2.17
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- income >  -1.42
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- income >  -1.29
+|   |   |   |   |   |   |   |--- discount 0.43 <= 1.14
+|   |   |   |   |   |   |   |   |--- membership months <= -0.61
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- membership months >  -0.61
+|   |   |   |   |   |   |   |   |   |--- income <= -1.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  -1.15
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- discount 0.43 >  1.14
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- income >  -0.82
+|   |   |   |   |--- membership months <= -0.76
+|   |   |   |   |   |--- income <= -0.09
+|   |   |   |   |   |   |--- age <= -1.66
+|   |   |   |   |   |   |   |--- membership months <= -1.19
+|   |   |   |   |   |   |   |   |--- income <= -0.13
+|   |   |   |   |   |   |   |   |   |--- age <= -1.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.77
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.34
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.34
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  -0.13
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- membership months >  -1.19
+|   |   |   |   |   |   |   |   |--- income <= -0.69
+|   |   |   |   |   |   |   |   |   |--- age <= -1.89
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -1.89
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  -0.69
+|   |   |   |   |   |   |   |   |   |--- income <= -0.59
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  -0.59
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |--- age >  -1.66
+|   |   |   |   |   |   |   |--- age <= 0.01
+|   |   |   |   |   |   |   |   |--- income <= -0.36
+|   |   |   |   |   |   |   |   |   |--- membership months <= -1.19
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- membership months >  -1.19
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |--- income >  -0.36
+|   |   |   |   |   |   |   |   |   |--- income <= -0.27
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- income >  -0.27
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |--- age >  0.01
+|   |   |   |   |   |   |   |   |--- income <= -0.46
+|   |   |   |   |   |   |   |   |   |--- age <= 2.43
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- age >  2.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  -0.46
+|   |   |   |   |   |   |   |   |   |--- income <= -0.32
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- income >  -0.32
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |--- income >  -0.09
+|   |   |   |   |   |   |--- age <= -0.28
+|   |   |   |   |   |   |   |--- membership months <= -0.83
+|   |   |   |   |   |   |   |   |--- membership months <= -0.97
+|   |   |   |   |   |   |   |   |   |--- age <= -0.57
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.89
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- age >  -0.57
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- membership months >  -0.97
+|   |   |   |   |   |   |   |   |   |--- income <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |--- membership months >  -0.83
+|   |   |   |   |   |   |   |   |--- age <= -1.40
+|   |   |   |   |   |   |   |   |   |--- discount 0.43 <= 1.14
+|   |   |   |   |   |   |   |   |   |   |--- bogo <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- bogo >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- discount 0.43 >  1.14
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.86
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- age >  -1.40
+|   |   |   |   |   |   |   |   |   |--- income <= 0.19
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- income >  0.19
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- age >  -0.28
+|   |   |   |   |   |   |   |--- income <= 0.05
+|   |   |   |   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |   |   |   |--- age <= 0.35
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- age >  0.35
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |   |   |   |--- age <= 0.41
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  0.41
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- income >  0.05
+|   |   |   |   |   |   |   |   |--- membership months <= -1.19
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  -1.19
+|   |   |   |   |   |   |   |   |   |--- age <= 1.68
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- age >  1.68
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- membership months >  -0.76
+|   |   |   |   |   |--- age <= -1.20
+|   |   |   |   |   |   |--- income <= 0.24
+|   |   |   |   |   |   |   |--- age <= -2.06
+|   |   |   |   |   |   |   |   |--- membership months <= -0.68
+|   |   |   |   |   |   |   |   |   |--- income <= -0.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  -0.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- membership months >  -0.68
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  -2.06
+|   |   |   |   |   |   |   |   |--- age <= -2.01
+|   |   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.55
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.55
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -2.01
+|   |   |   |   |   |   |   |   |   |--- age <= -1.95
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- age >  -1.95
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |--- income >  0.24
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- age >  -1.20
+|   |   |   |   |   |   |--- age <= 1.91
+|   |   |   |   |   |   |   |--- age <= -1.03
+|   |   |   |   |   |   |   |   |--- income <= -0.59
+|   |   |   |   |   |   |   |   |   |--- income <= -0.64
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  -0.64
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  -0.59
+|   |   |   |   |   |   |   |   |   |--- income <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  -1.03
+|   |   |   |   |   |   |   |   |--- age <= 1.45
+|   |   |   |   |   |   |   |   |   |--- age <= 0.53
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |--- age >  0.53
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- age >  1.45
+|   |   |   |   |   |   |   |   |   |--- age <= 1.79
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  1.79
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- age >  1.91
+|   |   |   |   |   |   |   |--- income <= -0.20
+|   |   |   |   |   |   |   |   |--- age <= 2.20
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  2.20
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.65
+|   |   |   |   |   |   |   |   |   |   |--- age <= 2.34
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  2.34
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- income >  -0.20
+|   |   |   |   |   |   |   |   |--- income <= -0.09
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  -0.09
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- female >  0.16
+|   |   |   |--- membership months <= -0.83
+|   |   |   |   |--- age <= -1.95
+|   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |--- income <= -0.59
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- income >  -0.59
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- age >  -1.95
+|   |   |   |   |   |--- income <= -1.56
+|   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |--- age <= -1.52
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  -1.52
+|   |   |   |   |   |   |   |   |--- age <= 0.35
+|   |   |   |   |   |   |   |   |   |--- age <= -0.25
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.34
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.34
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- age >  -0.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  0.35
+|   |   |   |   |   |   |   |   |   |--- age <= 0.87
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  0.87
+|   |   |   |   |   |   |   |   |   |   |--- bogo <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- bogo >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- income >  -1.56
+|   |   |   |   |   |   |--- age <= -1.89
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  -1.89
+|   |   |   |   |   |   |   |--- income <= -0.09
+|   |   |   |   |   |   |   |   |--- income <= -0.32
+|   |   |   |   |   |   |   |   |   |--- income <= -1.29
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- income >  -1.29
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
+|   |   |   |   |   |   |   |   |--- income >  -0.32
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.90
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.90
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- income >  -0.09
+|   |   |   |   |   |   |   |   |--- age <= 0.58
+|   |   |   |   |   |   |   |   |   |--- age <= -0.05
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.37
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.37
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- age >  -0.05
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- age >  0.58
+|   |   |   |   |   |   |   |   |   |--- age <= 1.39
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- age >  1.39
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- membership months >  -0.83
+|   |   |   |   |--- income <= -0.64
+|   |   |   |   |   |--- age <= 1.62
+|   |   |   |   |   |   |--- income <= -1.61
+|   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |--- age <= -0.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -0.88
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |--- age <= -0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -0.16
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- income >  -1.61
+|   |   |   |   |   |   |   |--- income <= -1.33
+|   |   |   |   |   |   |   |   |--- age <= 0.76
+|   |   |   |   |   |   |   |   |   |--- age <= 0.70
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.52
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.52
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- age >  0.70
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.42
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.42
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  0.76
+|   |   |   |   |   |   |   |   |   |--- age <= 1.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  1.42
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.51
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.51
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- income >  -1.33
+|   |   |   |   |   |   |   |   |--- age <= 1.33
+|   |   |   |   |   |   |   |   |   |--- age <= -0.85
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.95
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.95
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |--- age >  -0.85
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |--- age >  1.33
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- age >  1.62
+|   |   |   |   |   |   |--- income <= -1.52
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- income >  -1.52
+|   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |--- income <= -1.08
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  -1.08
+|   |   |   |   |   |   |   |   |   |--- income <= -0.92
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- income >  -0.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.68
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |   |--- age <= 1.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  1.68
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- income >  -0.64
+|   |   |   |   |   |--- age <= 2.08
+|   |   |   |   |   |   |--- age <= -1.72
+|   |   |   |   |   |   |   |--- income <= -0.41
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- income >  -0.41
+|   |   |   |   |   |   |   |   |--- income <= -0.18
+|   |   |   |   |   |   |   |   |   |--- age <= -1.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -1.95
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.77
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  -0.18
+|   |   |   |   |   |   |   |   |   |--- age <= -2.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -2.06
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- age >  -1.72
+|   |   |   |   |   |   |   |--- income <= 0.10
+|   |   |   |   |   |   |   |   |--- membership months <= -0.61
+|   |   |   |   |   |   |   |   |   |--- age <= 0.93
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.64
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.64
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- age >  0.93
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- membership months >  -0.61
+|   |   |   |   |   |   |   |   |   |--- age <= 1.71
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- age >  1.71
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.85
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- income >  0.10
+|   |   |   |   |   |   |   |   |--- membership months <= -0.47
+|   |   |   |   |   |   |   |   |   |--- age <= -0.05
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- age >  -0.05
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- membership months >  -0.47
+|   |   |   |   |   |   |   |   |   |--- age <= -0.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -0.77
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |--- age >  2.08
+|   |   |   |   |   |   |--- membership months <= -0.47
+|   |   |   |   |   |   |   |--- income <= 0.12
+|   |   |   |   |   |   |   |   |--- income <= -0.32
+|   |   |   |   |   |   |   |   |   |--- age <= 2.23
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- age >  2.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  -0.32
+|   |   |   |   |   |   |   |   |   |--- age <= 2.25
+|   |   |   |   |   |   |   |   |   |   |--- age <= 2.17
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  2.17
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  2.25
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- income >  0.12
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- membership months >  -0.47
+|   |   |   |   |   |   |   |--- age <= 2.17
+|   |   |   |   |   |   |   |   |--- income <= -0.23
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  -0.23
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  2.17
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |--- income >  0.28
+|   |   |--- age <= -0.39
+|   |   |   |--- female <= 0.16
+|   |   |   |   |--- income <= 0.47
+|   |   |   |   |   |--- membership months <= -0.68
+|   |   |   |   |   |   |--- age <= -0.74
+|   |   |   |   |   |   |   |--- membership months <= -0.97
+|   |   |   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |   |   |--- age <= -1.77
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- age >  -1.77
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.72
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.72
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |   |   |--- age <= -1.66
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.66
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- membership months >  -0.97
+|   |   |   |   |   |   |   |   |--- age <= -1.14
+|   |   |   |   |   |   |   |   |   |--- income <= 0.33
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.89
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- income >  0.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -1.14
+|   |   |   |   |   |   |   |   |   |--- age <= -0.85
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- age >  -0.85
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  -0.74
+|   |   |   |   |   |   |   |--- age <= -0.57
+|   |   |   |   |   |   |   |   |--- bogo <= 0.00
+|   |   |   |   |   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.33
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.33
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- bogo >  0.00
+|   |   |   |   |   |   |   |   |   |--- age <= -0.68
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -0.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  -0.57
+|   |   |   |   |   |   |   |   |--- membership months <= -1.15
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  -1.15
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.97
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- membership months >  -0.68
+|   |   |   |   |   |   |--- age <= -0.91
+|   |   |   |   |   |   |   |--- income <= 0.33
+|   |   |   |   |   |   |   |   |--- age <= -1.86
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  -1.86
+|   |   |   |   |   |   |   |   |   |--- age <= -1.40
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- income >  0.33
+|   |   |   |   |   |   |   |   |--- age <= -1.83
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -1.83
+|   |   |   |   |   |   |   |   |   |--- age <= -1.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.75
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.66
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |--- age >  -0.91
+|   |   |   |   |   |   |   |--- age <= -0.57
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  -0.57
+|   |   |   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- income >  0.47
+|   |   |   |   |   |--- age <= -0.45
+|   |   |   |   |   |   |--- membership months <= -1.05
+|   |   |   |   |   |   |   |--- age <= -0.57
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  -0.57
+|   |   |   |   |   |   |   |   |--- income <= 0.61
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  0.61
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- membership months >  -1.05
+|   |   |   |   |   |   |   |--- age <= -1.03
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  -1.03
+|   |   |   |   |   |   |   |   |--- income <= 0.56
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  0.56
+|   |   |   |   |   |   |   |   |   |--- income <= 1.25
+|   |   |   |   |   |   |   |   |   |   |--- income <= 1.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- income >  1.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- income >  1.25
+|   |   |   |   |   |   |   |   |   |   |--- income <= 1.44
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- income >  1.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- age >  -0.45
+|   |   |   |   |   |   |--- income <= 0.95
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- income >  0.95
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- female >  0.16
+|   |   |   |   |--- membership months <= -0.76
+|   |   |   |   |   |--- income <= 1.44
+|   |   |   |   |   |   |--- income <= 1.07
+|   |   |   |   |   |   |   |--- age <= -1.40
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  -1.40
+|   |   |   |   |   |   |   |   |--- membership months <= -1.19
+|   |   |   |   |   |   |   |   |   |--- income <= 0.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- income >  0.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  -1.19
+|   |   |   |   |   |   |   |   |   |--- income <= 0.79
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- income >  0.79
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- income >  1.07
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- income >  1.44
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- membership months >  -0.76
+|   |   |   |   |   |--- age <= -1.89
+|   |   |   |   |   |   |--- membership months <= -0.54
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- membership months >  -0.54
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- age >  -1.89
+|   |   |   |   |   |   |--- membership months <= -0.61
+|   |   |   |   |   |   |   |--- membership months <= -0.68
+|   |   |   |   |   |   |   |   |--- income <= 0.35
+|   |   |   |   |   |   |   |   |   |--- age <= -0.83
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.31
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.31
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -0.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  0.35
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  -0.68
+|   |   |   |   |   |   |   |   |--- income <= 1.11
+|   |   |   |   |   |   |   |   |   |--- age <= -1.60
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.75
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.75
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -1.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  1.11
+|   |   |   |   |   |   |   |   |   |--- age <= -0.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -0.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- membership months >  -0.61
+|   |   |   |   |   |   |   |--- membership months <= -0.47
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  -0.47
+|   |   |   |   |   |   |   |   |--- income <= 0.37
+|   |   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  0.37
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |--- age >  -0.39
+|   |   |   |--- membership months <= -1.05
+|   |   |   |   |--- income <= 0.51
+|   |   |   |   |   |--- income <= 0.47
+|   |   |   |   |   |   |--- age <= -0.11
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  -0.11
+|   |   |   |   |   |   |   |--- age <= 1.45
+|   |   |   |   |   |   |   |   |--- age <= 0.87
+|   |   |   |   |   |   |   |   |   |--- age <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- age >  0.87
+|   |   |   |   |   |   |   |   |   |--- income <= 0.37
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- income >  0.37
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  1.45
+|   |   |   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |   |   |--- age <= 1.76
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  1.76
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- income >  0.47
+|   |   |   |   |   |   |--- age <= 0.58
+|   |   |   |   |   |   |   |--- age <= -0.08
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  -0.08
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  0.58
+|   |   |   |   |   |   |   |--- membership months <= -1.19
+|   |   |   |   |   |   |   |   |--- age <= 0.76
+|   |   |   |   |   |   |   |   |   |--- age <= 0.67
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  0.67
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  0.76
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  -1.19
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- income >  0.51
+|   |   |   |   |   |--- age <= 1.85
+|   |   |   |   |   |   |--- age <= 1.79
+|   |   |   |   |   |   |   |--- income <= 0.79
+|   |   |   |   |   |   |   |   |--- age <= 0.24
+|   |   |   |   |   |   |   |   |   |--- income <= 0.65
+|   |   |   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- income >  0.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  0.24
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- income >  0.79
+|   |   |   |   |   |   |   |   |--- membership months <= -1.12
+|   |   |   |   |   |   |   |   |   |--- income <= 1.94
+|   |   |   |   |   |   |   |   |   |   |--- income <= 1.81
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- income >  1.81
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- income >  1.94
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  -1.12
+|   |   |   |   |   |   |   |   |   |--- age <= -0.22
+|   |   |   |   |   |   |   |   |   |   |--- income <= 2.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  2.17
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -0.22
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |--- age >  1.79
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- age >  1.85
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- membership months >  -1.05
+|   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |--- membership months <= -0.90
+|   |   |   |   |   |   |--- income <= 1.25
+|   |   |   |   |   |   |   |--- income <= 1.02
+|   |   |   |   |   |   |   |   |--- income <= 0.84
+|   |   |   |   |   |   |   |   |   |--- income <= 0.74
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- income >  0.74
+|   |   |   |   |   |   |   |   |   |   |--- bogo <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- bogo >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- income >  0.84
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- income >  1.02
+|   |   |   |   |   |   |   |   |--- age <= -0.11
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  -0.11
+|   |   |   |   |   |   |   |   |   |--- age <= 0.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  0.58
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- income >  1.25
+|   |   |   |   |   |   |   |--- age <= 0.07
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  0.07
+|   |   |   |   |   |   |   |   |--- income <= 1.46
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  1.46
+|   |   |   |   |   |   |   |   |   |--- age <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- income <= 1.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  1.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- membership months >  -0.90
+|   |   |   |   |   |   |--- income <= 0.70
+|   |   |   |   |   |   |   |--- age <= 2.37
+|   |   |   |   |   |   |   |   |--- age <= 1.22
+|   |   |   |   |   |   |   |   |   |--- age <= 0.76
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- age >  0.76
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- age >  1.22
+|   |   |   |   |   |   |   |   |   |--- age <= 1.85
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.51
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  1.85
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  2.37
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- income >  0.70
+|   |   |   |   |   |   |   |--- income <= 1.16
+|   |   |   |   |   |   |   |   |--- age <= -0.16
+|   |   |   |   |   |   |   |   |   |--- age <= -0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -0.28
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- age >  -0.16
+|   |   |   |   |   |   |   |   |   |--- age <= 0.35
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- age >  0.35
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |--- income >  1.16
+|   |   |   |   |   |   |   |   |--- income <= 1.25
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.47
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.47
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  1.25
+|   |   |   |   |   |   |   |   |   |--- income <= 2.13
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- income >  2.13
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- female >  0.16
+|   |   |   |   |   |--- age <= -0.34
+|   |   |   |   |   |   |--- income <= 1.37
+|   |   |   |   |   |   |   |--- membership months <= -0.47
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  -0.47
+|   |   |   |   |   |   |   |   |--- income <= 0.86
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  0.86
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- income >  1.37
+|   |   |   |   |   |   |   |--- income <= 1.53
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- income >  1.53
+|   |   |   |   |   |   |   |   |--- membership months <= -0.83
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- membership months >  -0.83
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- age >  -0.34
+|   |   |   |   |   |   |--- income <= 0.51
+|   |   |   |   |   |   |   |--- age <= 1.22
+|   |   |   |   |   |   |   |   |--- age <= 0.99
+|   |   |   |   |   |   |   |   |   |--- discount 0.43 <= 1.14
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- discount 0.43 >  1.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  0.99
+|   |   |   |   |   |   |   |   |   |--- income <= 0.47
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- income >  0.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  1.22
+|   |   |   |   |   |   |   |   |--- membership months <= -0.76
+|   |   |   |   |   |   |   |   |   |--- income <= 0.37
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- income >  0.37
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  -0.76
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- income >  0.51
+|   |   |   |   |   |   |   |--- age <= 1.79
+|   |   |   |   |   |   |   |   |--- age <= 1.28
+|   |   |   |   |   |   |   |   |   |--- age <= 1.22
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.43 <= 1.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.43 >  1.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- age >  1.22
+|   |   |   |   |   |   |   |   |   |   |--- income <= 1.71
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- income >  1.71
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  1.28
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.97
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.88
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.88
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.97
+|   |   |   |   |   |   |   |   |   |   |--- income <= 1.69
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- income >  1.69
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- age >  1.79
+|   |   |   |   |   |   |   |   |--- age <= 1.97
+|   |   |   |   |   |   |   |   |   |--- income <= 2.11
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.79
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.79
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- income >  2.11
+|   |   |   |   |   |   |   |   |   |   |--- income <= 2.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  2.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  1.97
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.97
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|--- membership months >  -0.39
+|   |--- income <= -0.23
+|   |   |--- membership months <= 1.35
+|   |   |   |--- membership months <= -0.32
+|   |   |   |   |--- income <= -1.56
+|   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |--- age <= -0.45
+|   |   |   |   |   |   |   |--- age <= -1.08
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  -1.08
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  -0.45
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- income >  -1.56
+|   |   |   |   |   |--- age <= -1.72
+|   |   |   |   |   |   |--- income <= -1.06
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- income >  -1.06
+|   |   |   |   |   |   |   |--- age <= -2.01
+|   |   |   |   |   |   |   |   |--- income <= -0.46
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  -0.46
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  -2.01
+|   |   |   |   |   |   |   |   |--- income <= -0.64
+|   |   |   |   |   |   |   |   |   |--- income <= -0.76
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- income >  -0.76
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  -0.64
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- age >  -1.72
+|   |   |   |   |   |   |--- age <= -1.08
+|   |   |   |   |   |   |   |--- age <= -1.54
+|   |   |   |   |   |   |   |   |--- income <= -1.42
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  -1.42
+|   |   |   |   |   |   |   |   |   |--- income <= -1.15
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.33
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.33
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- income >  -1.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  -1.54
+|   |   |   |   |   |   |   |   |--- income <= -0.62
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  -0.62
+|   |   |   |   |   |   |   |   |   |--- income <= -0.39
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- income >  -0.39
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  -1.08
+|   |   |   |   |   |   |   |--- discount 0.43 <= 1.14
+|   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |--- age <= -0.74
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.42
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.42
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- age >  -0.74
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.82
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |--- age <= -0.97
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -0.97
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- discount 0.43 >  1.14
+|   |   |   |   |   |   |   |   |--- age <= 1.13
+|   |   |   |   |   |   |   |   |   |--- age <= -0.54
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -0.54
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  1.13
+|   |   |   |   |   |   |   |   |   |--- income <= -1.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  -1.22
+|   |   |   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- membership months >  -0.32
+|   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |--- discount 0.43 <= 1.14
+|   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |--- age <= 1.28
+|   |   |   |   |   |   |   |   |--- income <= -1.47
+|   |   |   |   |   |   |   |   |   |--- income <= -1.52
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 0.55
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  0.55
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  -1.52
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  -1.47
+|   |   |   |   |   |   |   |   |   |--- age <= -0.62
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- age >  -0.62
+|   |   |   |   |   |   |   |   |   |   |--- bogo <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- bogo >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |--- age >  1.28
+|   |   |   |   |   |   |   |   |--- age <= 1.33
+|   |   |   |   |   |   |   |   |   |--- membership months <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- membership months >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  1.33
+|   |   |   |   |   |   |   |   |   |--- membership months <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- membership months >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |--- membership months <= 0.48
+|   |   |   |   |   |   |   |   |--- age <= -0.51
+|   |   |   |   |   |   |   |   |   |--- age <= -1.49
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.49
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- age >  -0.51
+|   |   |   |   |   |   |   |   |   |--- age <= 0.93
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  0.93
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- membership months >  0.48
+|   |   |   |   |   |   |   |   |--- age <= -1.03
+|   |   |   |   |   |   |   |   |   |--- membership months <= 1.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  1.28
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -1.03
+|   |   |   |   |   |   |   |   |   |--- membership months <= 0.55
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- membership months >  0.55
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |--- discount 0.43 >  1.14
+|   |   |   |   |   |   |--- age <= -2.01
+|   |   |   |   |   |   |   |--- membership months <= 0.55
+|   |   |   |   |   |   |   |   |--- membership months <= 0.44
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  0.44
+|   |   |   |   |   |   |   |   |   |--- income <= -1.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- income >  -1.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  0.55
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  -2.01
+|   |   |   |   |   |   |   |--- age <= 0.18
+|   |   |   |   |   |   |   |   |--- age <= -1.49
+|   |   |   |   |   |   |   |   |   |--- age <= -1.54
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.54
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  -1.49
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  0.18
+|   |   |   |   |   |   |   |   |--- age <= 0.58
+|   |   |   |   |   |   |   |   |   |--- age <= 0.53
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- age >  0.53
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- age >  0.58
+|   |   |   |   |   |   |   |   |   |--- membership months <= 1.13
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  1.13
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 1.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  1.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- female >  0.16
+|   |   |   |   |   |--- income <= -1.52
+|   |   |   |   |   |   |--- membership months <= -0.18
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- membership months >  -0.18
+|   |   |   |   |   |   |   |--- membership months <= 0.33
+|   |   |   |   |   |   |   |   |--- age <= -0.11
+|   |   |   |   |   |   |   |   |   |--- age <= -0.39
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -0.39
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -0.11
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  0.33
+|   |   |   |   |   |   |   |   |--- age <= 1.07
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  1.07
+|   |   |   |   |   |   |   |   |   |--- membership months <= 0.84
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  0.84
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- income >  -1.52
+|   |   |   |   |   |   |--- membership months <= 0.77
+|   |   |   |   |   |   |   |--- income <= -0.96
+|   |   |   |   |   |   |   |   |--- age <= -2.01
+|   |   |   |   |   |   |   |   |   |--- income <= -1.19
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  -1.19
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -2.01
+|   |   |   |   |   |   |   |   |   |--- membership months <= -0.25
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.60
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.60
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  -0.25
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |--- income >  -0.96
+|   |   |   |   |   |   |   |   |--- membership months <= -0.18
+|   |   |   |   |   |   |   |   |   |--- age <= 0.61
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  0.61
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  -0.18
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- membership months >  0.77
+|   |   |   |   |   |   |   |--- income <= -1.42
+|   |   |   |   |   |   |   |   |--- membership months <= 0.84
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- membership months >  0.84
+|   |   |   |   |   |   |   |   |   |--- age <= 0.56
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  0.56
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- income >  -1.42
+|   |   |   |   |   |   |   |   |--- age <= -0.68
+|   |   |   |   |   |   |   |   |   |--- membership months <= 0.84
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  0.84
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- age >  -0.68
+|   |   |   |   |   |   |   |   |   |--- membership months <= 1.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  1.06
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- membership months >  1.35
+|   |   |   |--- income <= -1.24
+|   |   |   |   |--- income <= -1.47
+|   |   |   |   |   |--- income <= -1.56
+|   |   |   |   |   |   |--- age <= -1.29
+|   |   |   |   |   |   |   |--- membership months <= 2.36
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- membership months >  2.36
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  -1.29
+|   |   |   |   |   |   |   |--- membership months <= 1.46
+|   |   |   |   |   |   |   |   |--- age <= -0.05
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  1.46
+|   |   |   |   |   |   |   |   |--- age <= -0.62
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  -0.62
+|   |   |   |   |   |   |   |   |   |--- age <= -0.22
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 2.65
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  2.65
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -0.22
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.61
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- income >  -1.56
+|   |   |   |   |   |   |--- membership months <= 2.87
+|   |   |   |   |   |   |   |--- age <= -0.68
+|   |   |   |   |   |   |   |   |--- age <= -0.77
+|   |   |   |   |   |   |   |   |   |--- bogo <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- bogo >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  -0.77
+|   |   |   |   |   |   |   |   |   |--- membership months <= 1.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  1.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  -0.68
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- membership months >  2.87
+|   |   |   |   |   |   |   |--- membership months <= 2.95
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- membership months >  2.95
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- income >  -1.47
+|   |   |   |   |   |--- age <= -0.91
+|   |   |   |   |   |   |--- age <= -1.54
+|   |   |   |   |   |   |   |--- membership months <= 2.51
+|   |   |   |   |   |   |   |   |--- membership months <= 2.00
+|   |   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.83
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.83
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- membership months >  2.00
+|   |   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.75
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.75
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- membership months >  2.51
+|   |   |   |   |   |   |   |   |--- membership months <= 2.87
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  2.87
+|   |   |   |   |   |   |   |   |   |--- age <= -1.89
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -1.89
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  -1.54
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- age >  -0.91
+|   |   |   |   |   |   |--- membership months <= 2.80
+|   |   |   |   |   |   |   |--- bogo <= 0.00
+|   |   |   |   |   |   |   |   |--- age <= 0.01
+|   |   |   |   |   |   |   |   |   |--- age <= -0.11
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 1.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  1.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- age >  -0.11
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.43 <= 1.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.43 >  1.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  0.01
+|   |   |   |   |   |   |   |   |   |--- age <= 1.33
+|   |   |   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- age >  1.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- bogo >  0.00
+|   |   |   |   |   |   |   |   |--- age <= 0.24
+|   |   |   |   |   |   |   |   |   |--- age <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 1.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  1.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- age >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 1.89
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  1.89
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  0.24
+|   |   |   |   |   |   |   |   |   |--- income <= -1.38
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 2.33
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  2.33
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  -1.38
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.29
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- membership months >  2.80
+|   |   |   |   |   |   |   |--- age <= 1.10
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  1.10
+|   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- income >  -1.24
+|   |   |   |   |--- income <= -0.27
+|   |   |   |   |   |--- discount 0.43 <= 1.14
+|   |   |   |   |   |   |--- income <= -0.73
+|   |   |   |   |   |   |   |--- income <= -1.01
+|   |   |   |   |   |   |   |   |--- age <= 1.42
+|   |   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- income <= -1.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- income >  -1.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 1.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  1.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- age >  1.42
+|   |   |   |   |   |   |   |   |   |--- income <= -1.10
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.71
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.71
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  -1.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- income >  -1.01
+|   |   |   |   |   |   |   |   |--- age <= -1.66
+|   |   |   |   |   |   |   |   |   |--- income <= -0.87
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.80
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- income >  -0.87
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 1.42
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  1.42
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -1.66
+|   |   |   |   |   |   |   |   |   |--- income <= -0.92
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 2.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  2.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- income >  -0.92
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |--- income >  -0.73
+|   |   |   |   |   |   |   |--- income <= -0.46
+|   |   |   |   |   |   |   |   |--- membership months <= 2.07
+|   |   |   |   |   |   |   |   |   |--- age <= -0.31
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -0.31
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- membership months >  2.07
+|   |   |   |   |   |   |   |   |   |--- membership months <= 2.29
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.56
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- membership months >  2.29
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 2.73
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  2.73
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |--- income >  -0.46
+|   |   |   |   |   |   |   |   |--- membership months <= 2.44
+|   |   |   |   |   |   |   |   |   |--- membership months <= 2.07
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- membership months >  2.07
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- membership months >  2.44
+|   |   |   |   |   |   |   |   |   |--- age <= -1.60
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.60
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.67
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.67
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- discount 0.43 >  1.14
+|   |   |   |   |   |   |--- membership months <= 2.29
+|   |   |   |   |   |   |   |--- membership months <= 2.15
+|   |   |   |   |   |   |   |   |--- income <= -1.19
+|   |   |   |   |   |   |   |   |   |--- age <= -0.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -0.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  -1.19
+|   |   |   |   |   |   |   |   |   |--- age <= -0.97
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -0.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  2.15
+|   |   |   |   |   |   |   |   |--- age <= 0.84
+|   |   |   |   |   |   |   |   |   |--- age <= -0.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -0.65
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  0.84
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- membership months >  2.29
+|   |   |   |   |   |   |   |--- age <= -1.63
+|   |   |   |   |   |   |   |   |--- income <= -0.87
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  -0.87
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  -1.63
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- income >  -0.27
+|   |   |   |   |   |--- age <= 0.47
+|   |   |   |   |   |   |--- membership months <= 1.42
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- membership months >  1.42
+|   |   |   |   |   |   |   |--- membership months <= 2.51
+|   |   |   |   |   |   |   |   |--- membership months <= 2.07
+|   |   |   |   |   |   |   |   |   |--- membership months <= 1.93
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- membership months >  1.93
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  2.07
+|   |   |   |   |   |   |   |   |   |--- age <= -1.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- membership months >  2.51
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- age >  0.47
+|   |   |   |   |   |   |--- class: 1
+|   |--- income >  -0.23
+|   |   |--- membership months <= -0.32
+|   |   |   |--- income <= 0.37
+|   |   |   |   |--- income <= -0.18
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- income >  -0.18
+|   |   |   |   |   |--- income <= 0.14
+|   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |--- age <= -0.45
+|   |   |   |   |   |   |   |   |--- age <= -1.46
+|   |   |   |   |   |   |   |   |   |--- age <= -1.54
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.54
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -1.46
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  -0.45
+|   |   |   |   |   |   |   |   |--- age <= 0.27
+|   |   |   |   |   |   |   |   |   |--- age <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  0.27
+|   |   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |--- age <= 0.15
+|   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |--- income <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- income >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |--- age <= -1.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -1.08
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  0.15
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- income >  0.14
+|   |   |   |   |   |   |--- age <= -1.86
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- age >  -1.86
+|   |   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |   |--- age <= 0.47
+|   |   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  0.47
+|   |   |   |   |   |   |   |   |   |--- age <= 0.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  0.53
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.45
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |--- income <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- income >  0.37
+|   |   |   |   |--- age <= -0.65
+|   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |--- age <= -0.88
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  -0.88
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- age >  -0.65
+|   |   |   |   |   |--- age <= 1.74
+|   |   |   |   |   |   |--- income <= 0.54
+|   |   |   |   |   |   |   |--- age <= 0.73
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  0.73
+|   |   |   |   |   |   |   |   |--- age <= 0.96
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  0.96
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- income >  0.54
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- age >  1.74
+|   |   |   |   |   |   |--- age <= 1.82
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- age >  1.82
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |--- membership months >  -0.32
+|   |   |   |--- membership months <= 1.35
+|   |   |   |   |--- age <= 2.43
+|   |   |   |   |   |--- age <= -0.97
+|   |   |   |   |   |   |--- age <= -1.20
+|   |   |   |   |   |   |   |--- membership months <= -0.10
+|   |   |   |   |   |   |   |   |--- income <= 0.10
+|   |   |   |   |   |   |   |   |   |--- income <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= -0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  -0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  0.10
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  -0.10
+|   |   |   |   |   |   |   |   |--- age <= -1.95
+|   |   |   |   |   |   |   |   |   |--- membership months <= 1.20
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- membership months >  1.20
+|   |   |   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -1.95
+|   |   |   |   |   |   |   |   |   |--- age <= -1.26
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.26
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- age >  -1.20
+|   |   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |   |--- income <= 0.47
+|   |   |   |   |   |   |   |   |   |--- income <= 0.42
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- income >  0.42
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- income >  0.47
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |   |--- age <= -1.08
+|   |   |   |   |   |   |   |   |   |--- membership months <= 0.66
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- membership months >  0.66
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  -1.08
+|   |   |   |   |   |   |   |   |   |--- membership months <= 0.22
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  0.22
+|   |   |   |   |   |   |   |   |   |   |--- age <= -1.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- age >  -1.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- age >  -0.97
+|   |   |   |   |   |   |--- membership months <= 0.91
+|   |   |   |   |   |   |   |--- membership months <= 0.70
+|   |   |   |   |   |   |   |   |--- membership months <= 0.55
+|   |   |   |   |   |   |   |   |   |--- discount 0.25 <= 1.13
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- discount 0.25 >  1.13
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- membership months >  0.55
+|   |   |   |   |   |   |   |   |   |--- membership months <= 0.62
+|   |   |   |   |   |   |   |   |   |   |--- income <= 1.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- income >  1.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- membership months >  0.62
+|   |   |   |   |   |   |   |   |   |   |--- age <= 1.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  1.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- membership months >  0.70
+|   |   |   |   |   |   |   |   |--- age <= -0.22
+|   |   |   |   |   |   |   |   |   |--- age <= -0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -0.28
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.43 <= 1.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- discount 0.43 >  1.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  -0.22
+|   |   |   |   |   |   |   |   |   |--- income <= 1.71
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- income >  1.71
+|   |   |   |   |   |   |   |   |   |   |--- income <= 1.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  1.76
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- membership months >  0.91
+|   |   |   |   |   |   |   |--- income <= -0.18
+|   |   |   |   |   |   |   |   |--- membership months <= 0.99
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- membership months >  0.99
+|   |   |   |   |   |   |   |   |   |--- discount 0.20 <= 0.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- discount 0.20 >  0.58
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- income >  -0.18
+|   |   |   |   |   |   |   |   |--- income <= 1.25
+|   |   |   |   |   |   |   |   |   |--- membership months <= 1.20
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- membership months >  1.20
+|   |   |   |   |   |   |   |   |   |   |--- income <= 1.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- income >  1.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- income >  1.25
+|   |   |   |   |   |   |   |   |   |--- discount 0.43 <= 1.14
+|   |   |   |   |   |   |   |   |   |   |--- income <= 2.17
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- income >  2.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- discount 0.43 >  1.14
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- age >  2.43
+|   |   |   |   |   |--- membership months <= 0.19
+|   |   |   |   |   |   |--- income <= 1.04
+|   |   |   |   |   |   |   |--- income <= 0.10
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- income >  0.10
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- income >  1.04
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- membership months >  0.19
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- membership months >  1.35
+|   |   |   |   |--- age <= 2.23
+|   |   |   |   |   |--- income <= 0.24
+|   |   |   |   |   |   |--- age <= 0.76
+|   |   |   |   |   |   |   |--- membership months <= 1.42
+|   |   |   |   |   |   |   |   |--- age <= 0.18
+|   |   |   |   |   |   |   |   |   |--- age <= -1.95
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  -1.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  0.18
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- membership months >  1.42
+|   |   |   |   |   |   |   |   |--- income <= 0.19
+|   |   |   |   |   |   |   |   |   |--- membership months <= 2.95
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 1.49
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  1.49
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- membership months >  2.95
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- income >  0.19
+|   |   |   |   |   |   |   |   |   |--- bogo <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- bogo >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- age <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- age >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  0.76
+|   |   |   |   |   |   |   |--- age <= 1.05
+|   |   |   |   |   |   |   |   |--- age <= 0.93
+|   |   |   |   |   |   |   |   |   |--- membership months <= 2.87
+|   |   |   |   |   |   |   |   |   |   |--- income <= -0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- income >  -0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- membership months >  2.87
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  0.93
+|   |   |   |   |   |   |   |   |   |--- membership months <= 2.04
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- membership months >  2.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  1.05
+|   |   |   |   |   |   |   |   |--- membership months <= 2.07
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- membership months >  2.07
+|   |   |   |   |   |   |   |   |   |--- membership months <= 2.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- membership months >  2.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- income >  0.24
+|   |   |   |   |   |   |--- income <= 0.65
+|   |   |   |   |   |   |   |--- income <= 0.61
+|   |   |   |   |   |   |   |   |--- age <= 1.16
+|   |   |   |   |   |   |   |   |   |--- age <= -0.39
+|   |   |   |   |   |   |   |   |   |   |--- age <= -0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- age >  -0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  -0.39
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  1.16
+|   |   |   |   |   |   |   |   |   |--- age <= 1.33
+|   |   |   |   |   |   |   |   |   |   |--- income <= 0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- income >  0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  1.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- income >  0.61
+|   |   |   |   |   |   |   |   |--- age <= -0.16
+|   |   |   |   |   |   |   |   |   |--- membership months <= 2.62
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 2.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  2.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- membership months >  2.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  -0.16
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- income >  0.65
+|   |   |   |   |   |   |   |--- membership months <= 2.87
+|   |   |   |   |   |   |   |   |--- age <= 0.93
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  0.93
+|   |   |   |   |   |   |   |   |   |--- age <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- membership months <= 1.57
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- membership months >  1.57
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- membership months >  2.87
+|   |   |   |   |   |   |   |   |--- female <= 0.16
+|   |   |   |   |   |   |   |   |   |--- membership months <= 2.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- membership months >  2.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- female >  0.16
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- age >  2.23
+|   |   |   |   |   |--- age <= 2.48
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- age >  2.48
+|   |   |   |   |   |   |--- class: 1
